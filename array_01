@@ -1,0 +1,30 @@
+#if 0
+#include<stdio.h>
+
+int main() 
+{
+	int sum; //선언
+	double avg = 0.0; //선언과 초기화 
+	int kor[3]; //선언
+	int eng[3] = {5,7}; //선언하지 않은 eng[2] 에는 자동으로 int형 0이 들어가 있따.
+	int i;
+
+	
+	kor[0] = 100;
+	kor[1] = 200;
+	kor[2] = 300;
+	// kor[3] = 400;
+	/*
+	printf("%d\n", kor[0]); 
+	printf("%d\n", kor[1]);
+	printf("%d\n", kor[2]);
+
+	printf("%d\n", eng[2]);
+	*/
+
+	for(i=0; i<3; i++ )
+		printf("%d\n", kor[i]);
+
+	getch();
+}
+#endif
